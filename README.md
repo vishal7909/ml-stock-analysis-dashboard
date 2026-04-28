@@ -27,7 +27,6 @@ Language: JavaScript (ES6)
 --------------------------------------------------
 📁 PROJECT STRUCTURE:
 --------------------------------------------------
-intern_assign/
 ├── backend/
 │   ├── server.js
 │   ├── db.js
