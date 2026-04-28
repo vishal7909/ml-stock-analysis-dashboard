@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     result.innerText = "⏳ Uploading and registering company...";
 
-    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYzLCJlbWFpbCI6Inh5ekBleGFtcGxlLmNvbSIsImlhdCI6MTc2Mjk3MzM1OCwiZXhwIjoxNzcwNzQ5MzU4fQ.XDDAWk6oMi-o74bqwWc7I_3WdHWVK8iIKrWx996Y03A"; // put your actual JWT here
+    const token = ","; // put your actual JWT here
     const logoFile = document.getElementById("company_logo").files[0];
     let logoUrl = "";
 
