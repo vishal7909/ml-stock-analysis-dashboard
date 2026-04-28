@@ -38,8 +38,6 @@ Language: JavaScript (ES6)
 │   ├── style.css
 │   ├── script.js
 ├── company_db.sql
-├── Company_Module_API_Documentation_Styled.pdf
-└── README.txt (this file)
 
 --------------------------------------------------
 ⚙️ HOW TO RUN THE PROJECT:
@@ -91,14 +89,6 @@ Language: JavaScript (ES6)
    > SELECT * FROM company_profile;
 
 --------------------------------------------------
-📸 SUGGESTED SCREENSHOTS (Attach in PDF or Folder):
---------------------------------------------------
-1. Frontend registration form
-2. Postman test of upload and register endpoints
-3. Database proof (company_profile entries)
-4. Browser console showing success message
-
---------------------------------------------------
 🚫 NOTES:
 --------------------------------------------------
 - Do NOT include node_modules folder in submission.
@@ -106,14 +96,4 @@ Language: JavaScript (ES6)
 - Ensure your Cloudinary and JWT credentials are valid.
 
 --------------------------------------------------
-🎯 PROJECT STATUS:
---------------------------------------------------
-✅ Database Setup Completed
-✅ Backend + API Routes Working
-✅ JWT Authentication Added
-✅ Cloudinary File Upload Working
-✅ Frontend Form Integrated
-✅ Documentation Prepared
-✅ Tested via Postman + Browser
 
---------------------------------------------------
