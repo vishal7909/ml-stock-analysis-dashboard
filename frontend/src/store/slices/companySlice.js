@@ -1,0 +1,1 @@
+import { createSlice } from '@reduxjs/toolkit';const slice=createSlice({name:'company',initialState:{profile:null},reducers:{setProfile(s,a){s.profile=a.payload}}});export const { setProfile }=slice.actions;export default slice.reducer;

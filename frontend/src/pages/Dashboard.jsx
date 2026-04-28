@@ -1,0 +1,1 @@
+import { useQuery } from '@tanstack/react-query';import api from '../api/client';export default function Dashboard(){const { data }=useQuery({queryKey:['companyProfile'],queryFn:async()=> (await api.get('/company/profile')).data.data});return (<div><h2>Dashboard</h2><pre>{JSON.stringify(data,null,2)}</pre></div>)}

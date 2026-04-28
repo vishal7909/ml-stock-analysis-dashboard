@@ -1,0 +1,1 @@
+import createError from 'http-errors';import { verifyJwt } from '../utils/jwt.js';export function requireAuth(req,res,next){const h=req.headers.authorization||'';const t=h.startsWith('Bearer ')?h.slice(7):null;if(!t) return next(createError(401,'Missing Authorization token'));try{req.user=verifyJwt(t);next()}catch(e){next(createError(401,'Invalid or expired token'))}}

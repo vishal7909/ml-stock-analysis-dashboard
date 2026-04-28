@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Registration Portal</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/4359/4359951.png" alt="logo" />
+      <h1>Company Registration Portal</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Register Your Company</h2>
+      <p>Upload your company logo and fill in the details below.</p>
+
+      <form id="companyForm">
+        <label>Company Name</label>
+        <input type="text" id="company_name" placeholder="Enter company name" required />
+
+        <label>Industry Type</label>
+        <input type="text" id="industry_type" placeholder="e.g. Fintech, Healthcare" required />
+
+        <label>Headquarter Email</label>
+        <input type="email" id="headquarter_mail_id" placeholder="contact@company.com" required />
+
+        <label>About the Company</label>
+        <textarea id="about_company" placeholder="Describe your company briefly..."></textarea>
+
+        <label>Company Logo</label>
+        <input type="file" id="company_logo" accept="image/*" />
+
+        <button type="submit" id="registerBtn">Register Company</button>
+      </form>
+
+      <div id="result"></div>
+    </section>
+
+    <section class="image-section">
+      <img src="https://cdn-icons-png.flaticon.com/512/5533/5533689.png" alt="illustration" />
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

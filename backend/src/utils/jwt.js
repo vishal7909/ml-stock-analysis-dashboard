@@ -1,0 +1,1 @@
+import jwt from 'jsonwebtoken';export const signJwt=(p,e=process.env.JWT_EXPIRES||'90d')=>jwt.sign(p,process.env.JWT_SECRET,{expiresIn:e});export const verifyJwt=(t)=>jwt.verify(t,process.env.JWT_SECRET);
